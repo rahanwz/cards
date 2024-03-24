@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 3rem 2.5rem;
+}
+
+.head {
+  display: flex;
+}
+
+.cardcontainer {
+  width: 100%;
+  padding: 10px;
+}
+
+.card1 {
+  background-color: #3c3633;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.descrip {
+  padding-top: 1.5rem;
+}
+
+.card2 {
+  background-color: #e0ccbe;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.card3 {
+  background-color: #eeedeb;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.card4 {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #747264;
+}
+
+.card5 {
+  background-color: #eeedeb;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+    padding: 50px;
+    height: 100%;
+  }
+
+  .boxcard1 {
+    display: flex;
+    width: 75%;
+    height:20%;
+    flex-wrap: wrap;
+    background-color: brown;
+  }
+
+  .boxcard2 {
+    width: 25%;
+      height: 65%;
+  }
+
+  .big-card {
+    width: 65%;
+  }
+  .small-card {
+    width: 35%;
+  }
+  .card1,.card2,.card3,.card4,.card5{
+    height: 100%;
+  }
+  
+}
+.descrip1,
+.descrip2 {
+  direction: rtl;
+}
+
+.descrip1{
+ font-size:1.1rem;
+ padding: 1rem;
+ font-family: titr;
+}
+
+.descrip2{
+  padding: .25rem;
+  font-size:.80rem;
+  line-height:1.5rem;
+  color: #959595;
+}
+
+
+@font-face{
+  font-family:titr;
+  src: url(font/Parastoo-Bold-FD-WOL.woff);
+}
